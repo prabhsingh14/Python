@@ -1,0 +1,11 @@
+# Important Points
+- Byte code is not machine code.
+- "Python m koi data type ni h, variable ka koi data type nhi h, memory mai jo reference h uska data type hota h!"
+- Numbers and strings are not collected instantly by garbage collector.
+- Slicing m copies bnti h.
+- math.trunc() -> takes you towards zero.
+- strings are immutable
+- split --- convert string to list
+- list mutable, tuple immutable
+- file is an iterable object
+- for file, iter(f) is same as f but not for lists
