@@ -1,7 +1,8 @@
 from pymongo import MongoClient
 from bson import ObjectId
+import os
 
-client = MongoClient('mongodb+srv://prabhsingh1407:prabhsingh18@cluster0.dakkn.mongodb.net/') #temp
+client = MongoClient(os.getenv('MONGODB_URI')) #temp
 db = client['yt_manager']
 video_collection = db['videos']
 
